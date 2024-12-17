@@ -4,3 +4,35 @@
 *{
     font-family: "Work Sans", serif;
 }
+
+/* header styles */
+
+header{
+    background-color: #FFF4E7;
+    padding: 50px 240px;
+}
+.logo{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
