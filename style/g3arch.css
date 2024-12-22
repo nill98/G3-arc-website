@@ -7,6 +7,7 @@
     font-family: "Work Sans", serif;
 }
 
+/* shared items */
 .btn-primary{
     background-color:#ff900E;
     height:64px;
@@ -19,7 +20,19 @@
     color: #ffff;
     cursor: pointer;
 }
-    
+.section-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+.text-description{
+    font-weight: 400;
+    font-size: 1.12rem;
+    margin-bottom: 30px;
+    line-height: 26px;
+    color: #727272;
+    margin: 20px auto;
+}   
 /* header styles */
 
 header{
@@ -121,13 +134,36 @@ main{
     color: #FF900E;
 }
 
-.team-descripiton{
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 30px;
-    line-height: 26px;
-    color: #727272;
+/* Facts section */
+.facts{
+    margin-bottom: 50px;
 }
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: solid 1px orange;
+    text-align: center;
+    padding: 30px;
+}
+
+.facts-card-container .cardtitle{
+    font-weight: 600;
+    color: #727272;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.facts-card-container .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Responsive media quarry */
 
 /* Mobile device */
