@@ -227,6 +227,27 @@ main{
     width: 165px;
     padding: 20px;
 }
+
+/* Footer */
+
+footer{
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    width: 1440px;
+    height: 100px;
+    text-align: center;
+    margin: 100px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: #424242;
+    font-size: 1.2rem;
+    font-weight:400;
+}
+
 /* Responsive media quarry */
 
 /* Mobile device */
@@ -257,6 +278,17 @@ main{
     .facts-card-container{
         gap: 20px;
     }
+
+    footer {
+        width: 100%;
+        height: 80px;
+        margin: 50px auto;
+    }
+
+    footer p{
+        width: 80%;
+        font-size: .8rem;
+    }
 }
 
 /* tablet devices */
@@ -271,5 +303,14 @@ main{
     }
     .data-img{
         margin: 0 auto;
+    } 
+
+    footer {
+        width: 100%;
+        height: 80px;
+        margin: 50px auto;
+    }
+    footer p {
+        font-size: 16px;
     }
 }
